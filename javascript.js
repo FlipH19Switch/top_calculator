@@ -1,5 +1,3 @@
-// fixed number overflow; divide by zero; backspace; numpad and other keyboard support
-
 let num1;
 let num2;
 let operator;
