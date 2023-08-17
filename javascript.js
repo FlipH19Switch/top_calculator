@@ -118,6 +118,7 @@ function calculator () {
         };
     }
 
+// BUG: NumpadEnter can cause previously-clicked button to be pressed
 function logKey(e) {
     const keyPress = document.querySelector(`button[data-key="${e.code}"]`)
     if(!keyPress) return;
